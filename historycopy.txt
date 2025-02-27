@@ -1,0 +1,37 @@
+    1  pwd
+    2  ls
+    3  ll
+    4  history
+    5  history 
+    6  pwd
+    7  cd /c/
+    8  ls
+    9  mkdir gitwork
+   10  cd gitwork
+   11  ls
+   12  mkdir 02
+   13  ls
+   14  cd 02
+   15  pwd
+   16  touch test1.txt
+   17  echo "hello" > test2.txt
+   18  history > test3.txt
+   19  ls
+   20  head test3.txt
+   21  tail test3.txt
+   22  git config --global user.email "kohayakawa.0726@gmail.com"
+   23  git config --global user.name "koha0726"
+   24  git config -l
+   25  pwd
+   26  pwd
+   27  cd /c/
+   28  pwd
+   29  ls
+   30  cd gitwork
+   31  mkdir 03
+   32  cd 03
+   33  pwd
+   34  touch empty.txt
+   35  history
+   36  clear
+   37  history > history.txt
