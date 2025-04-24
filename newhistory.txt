@@ -1,0 +1,500 @@
+    4  git push -u origin master
+    5  touch test2.txt
+    6  git add .
+    7  git commit -m "second commit"
+    8  git push
+    9  pwd
+   10  cd /c/gitwork/
+   11  mkdir 08
+   12  cd 08
+   13  pwd
+   14  touch blog.txt
+   15  git init
+   16  git add .
+   17  git commit -m "first commit"
+   18  git add .
+   19  git commit -m "change menu header"
+   20  git log --oneline
+   21  git branch maintenance
+   22  git branch
+   23  git checkout maintenance
+   24  git branch
+   25  git add .
+   26  git commit -m "change footer"
+   27  git checkout master
+   28  git add .
+   29  git commit -m "delete image"
+   30  git branch
+   31  git diff
+   32  git diff maintenance 
+   33  git merge maintenance -m "merge commit"
+   34  git log --oneline --graph --all
+   35  history | tail -n 20
+   36  cd /c/gitwork/
+   37  mkdir 09
+   38  cd 09
+   39  pwd
+   40  touch test1.txt
+   41  git init
+   42  git add .
+   43  git commit -m "first commit"
+   44  git remote add origin https://github.com/koha0726/remote09.git
+   45  git push -u origin master
+   46  git status
+   47  git status
+   48  git clone https://github.com/koha0726/remote09.git .
+   49  git add .
+   50  git commit -m "write code"
+   51  git push
+   52  git pull
+   53  cd /c/gitwork/
+   54  mkdir 11
+   55  cd 11
+   56  git init
+   57  touch python.txt
+   58  git add .
+   59  git commit -m "first commit"
+   60  git branch -a
+   61  git remote add origin https://github.com/koha0726/remote11.git
+   62  git push -u origin master
+   63  git branch -a
+   64  git fetch
+   65  git merge origin/master
+   66  git diff master origin/master
+   67  git fetch
+   68  git diff master origin/master
+   69  git merge origin/master
+   70  cd /c/gitwork/
+   71  mkdir statustest
+   72  cd statustest/
+   73  git init
+   74  touch test1.txt
+   75  git status
+   76  git status -s
+   77  git add test1.txt 
+   78  git status
+   79  git status -s
+   80  touch test2.txt
+   81  git status -s
+   82  git add .
+   83  git status
+   84  git status -s
+   85  git commit -m "first commit"
+   86  git status -s
+   87  git commit -am "commit"
+   88  git status -s
+   89  git status
+   90  git status -s
+   91  git commit -am "delete test1"
+   92  git status -s
+   93  git status -v -v
+   94  touch test3.txt
+   95  git commit -a -m "edit test2"
+   96  git status -s
+   97  git add .
+   98  cd .
+   99  cd /.
+  100  cd /c/gitwork/
+  101  mkdir 12
+  102  cd 12
+  103  pwd pwd
+  104  touch blog.txt
+  105  code blog.txt 
+  106  git init
+  107  git add .
+  108  git commit -m "first commit"
+  109  git commit -am "change title"
+  110  git commit -am "change header image"
+  111  git commit -am "change menu"
+  112  git log --oneline
+  113  git revert --no-edit 1fc5e5c
+  114  git log --oneline
+  115  touch .gitignore
+  116  touch test1.txt
+  117  touch test2.txt
+  118  touch work.log
+  119  mkdir temp
+  120  cd temp
+  121  pwd
+  122  touch work.txt
+  123  cd ..
+  124  mkdir sample
+  125  cd sample
+  126  pwd
+  127  touch work.txt
+  128  touch access.log
+  129  cd ..
+  130  mkdir data
+  131  git status
+  132  git add .
+  133  git commit -m "ignore test"
+  134  git checkout .
+  135  mkdir date
+  136  mkdir data
+  137  touch data/.gitkeep
+  138  git add .
+  139  git commit -m "add gitkeep"
+  140  git checkout .
+  141  ls
+  142  /c/gitwork/
+  143  cd /c/gitwork/
+  144  mkdir 13
+  145  cd 13
+  146  pwd
+  147  touch index.txt
+  148  code index.txt 
+  149  git init
+  150  git add .
+  151  git commit -m "first commit"
+  152  git log --oneline
+  153  git tag
+  154  git tag v0.0 02073c8
+  155  git tag
+  156  touch article1.txt
+  157  code article1.txt 
+  158  touch article2.txt
+  159  code article2.txt 
+  160  git status
+  161  git add .
+  162  git status
+  163  git status -s
+  164  git commit -m "add article files"
+  165  git log --oneline
+  166  git tag v0.1 90c0135
+  167  git tag
+  168  git status -s
+  169  git commit -am "change article link"
+  170  git log --oneline
+  171  git tag v1.0 d91640e
+  172  git tag
+  173  git log --oneline
+  174  git checkout d91640e 
+  175  git checkout 90c0135
+  176  git checkout master
+  177  git checkout v0.1
+  178  git checkout master
+  179  git archive --list
+  180  git archive --format=zip HEAD -o backup1.zip
+  181  ls
+  182  zipinfo backup1.zip
+  183  git log --oneline
+  184  git archive --format=zip d91640e -o backup2.zip
+  185  ll
+  186  zipinfo backup2.zip
+  187  ll
+  188  cd /c/JAVA
+  189  cd FxDice
+  190  pwd
+  191  ll
+  192  ll -a
+  193  git init
+  194  git add .
+  195  git commit -m "first commit"
+  196  git remote add origin https://github.com/koha0726/fxdice.git
+  197  git push -u origin master
+  198  git status
+  199  git push
+  200  pwd
+  201  cd /c/Java
+  202  ls
+  203  ls -l
+  204  cd ClassSampleDice1
+  205  git init
+  206  git add .
+  207  git commit -m "first commit"
+  208  git remote add origin https://github.com/koha0726/ClassSampleDice.git
+  209  git push -u origin master
+  210  git status
+  211  git log --oneline --graph --all
+  212  pwd
+  213  cd /c/gitwork/
+  214  mkdir 14
+  215  cd 14
+  216  curl http://gitx.s205.xrea.com/blog14.txt -o blog.txt
+  217  git init
+  218  git add .
+  219  git commit -m "first commit"
+  220  git branch japanese
+  221  git branch
+  222  git checkout japanese
+  223  code blog.txt
+  224  git add .
+  225  git commit -m "add japanese article"
+  226  git checkout master
+  227  git branch
+  228  git checkout japanese
+  229  git stash
+  230  git checkout japanese
+  231  git checkout master
+  232  git stash list
+  233  git stash pop
+  234  git stash list
+  235  git stash
+  236  git stash
+  237  git stash list
+  238  git stash pop stash@{1}
+  239  git stash drop stash@{0}
+  240  git stash list
+  241  git remote add origin https://github.com/koha0726/remote14.git
+  242  code blog.txt 
+  243  git push -u origin master
+  244  git push -u origin japanese
+  245  git branch -r
+  246  cd /c/gitwork/13
+  247  ls
+  248  ls -l
+  249  ls -l -a
+  250  git log
+  251  git log --oneline --graph --decorate
+  252  git diff
+  253  git remote add origin https://github.com/koha0726/remote13.git
+  254  git push -u origin master
+  255  git status
+  256  git add .
+  257  git status
+  258  git commit -m "backup file"
+  259  git branch -a
+  260  git merge origin/master
+  261  git push
+  262  git branch
+  263  git remote -v
+  264  git push
+  265  git stats
+  266  git status
+  267  git log --oneline --graph
+  268  cd /c/gitwork/13
+  269  touch test.txt
+  270  git add .
+  271  git commit -m "test"
+  272  git push
+  273  git pull origin master
+  274  git push origin master
+  275  pwd
+  276  cd /c/gitwork
+  277  mkdir 15
+  278  cd 15
+  279  touch blog.txt
+  280  touch sample.txt article1.txt article2.txt
+  281  touch sample.log work1.log work2.log
+  282  git init
+  283  touch .gitignore
+  284  ls -a
+  285  git stats
+  286  git status
+  287  git add .
+  288  git commit -m "first commit"
+  289  git commit -a -m "change title"
+  290  git log --oneline
+  291  git tag
+  292  git tag fix1 7d18ac7
+  293  git tag
+  294  git commit -a -m "change header image"
+  295  git log --oneline
+  296  git tag fix2 470520d
+  297  git tag
+  298  git commit -a -m "change menu"
+  299  git log --oneline
+  300  git tag fix3 6a27de8
+  301  tag
+  302  git tag
+  303  git log --oneline --graph
+  304  git revert fix1
+  305  git log --oneline --graph
+  306  git tag
+  307  git archive --format=zip HEAD -o backup.zip
+  308  ls
+  309  zipinfo backup.zip
+  310  git log 
+  311  git log --oneline --graph --all
+  312  history | tail -n 40
+  313  cd /c/gitwork/
+  314  mkdir stage
+  315  cd stage
+  316  echo hello
+  317  echo "lemon" > main.java
+  318  echo "test" > dummy.java
+  319  echo "test" > test.java
+  320  code main.java 
+  321  code dummy.java 
+  322  code test.java 
+  323  ll > list.txt
+  324  ll
+  325  git init
+  326  git add .
+  327  git status
+  328  git reset list.txt
+  329  git status
+  330  git commit -m "init"
+  331  git status
+  332  git add list.txt
+  333  git commit -m "test"
+  334  cd /c/JAVA/FxDice2
+  335  git init
+  336  git add .
+  337  git status
+  338  git commit -m "first commit"
+  339  git archive --format=zip HEAD -o backup.zip
+  340  zipinfo backup.zip
+  341  git remote add origin https://github.com/koha0726/fxdice.git
+  342  git push -u origin master
+  343  git status
+  344  git pull origin master
+  345  git push -u origin master
+  346  git pull origin master
+  347  git push -u origin master
+  348  git status
+  349  git pull origin master --allow-unrelated-histories
+  350  git pull origin master
+  351  git add .
+  352  git commit -m "second commit"
+  353  git push -u origin master
+  354  cd /c/gitwork/stage
+  355  code main.java 
+  356  git add .
+  357  git status
+  358  git commit -m "test"
+  359  ll
+  360  git checkout .
+  361  git add .
+  362  git status
+  363  git commit -m "add line"
+  364  git status
+  365  git checkout .
+  366  touch dust.log
+  367  git checkout .
+  368  ll
+  369  git clean -n
+  370  git clean -f
+  371  ll
+  372  curl -O http://gitx.s205.xrea.com/book.txt
+  373  git add book.txt
+  374  git commit -m "add book"
+  375  git add -p book.txt
+  376  git status
+  377  git commit -m "hunk test"
+  378  git checkout .
+  379  git remote add origin https://github.com/koha0726/test.git
+  380  git push -u origin master
+  381  git branch
+  382  git branch -a
+  383  pwd
+  384  cd /c/gitwork/stage
+  385  cd /c/gitwork/02
+  386  git init
+  387  git status
+  388  git add test1.txt test2.txt test3.txt 
+  389  git status
+  390  git commit -m "first commit"
+  391  git status
+  392  git line
+  393  git log
+  394  git log --oneline --graph --all
+  395  git remote add origin https://github.com/koha0726/remote02.git
+  396  git push -u origin master
+  397  touch test4.txt
+  398  git add .
+  399  git status
+  400  git commit -m "second commit"
+  401  git push
+  402  /c/pleiades/2024-12/workspace/example20250415/
+  403  cd /c/pleiades/2024-12/workspace/example20250415/
+  404  git init
+  405  git add .
+  406  git status
+  407  git commit -m "first commit"
+  408  git remote add origin https://github.com/koha0726/example2515.git
+  409  git push -u origin master
+  410  cd /c/gitwork
+  411  mkdir branchtest
+  412  cd branchtest/
+  413  pwd
+  414  git init
+  415  touch a.txt
+  416  git add .
+  417  git commit -m "commit1"
+  418  touch b.txt
+  419  git add .
+  420  git status
+  421  git commit -m "commit2"
+  422  git remote add origin https://github.com/koha0726/branchtest.git
+  423  git push -u origin master
+  424  git branch develop
+  425  git checkout develop
+  426  touch c.txt
+  427  git add .
+  428  git commit -m "commit3"
+  429  touch d.txt
+  430  git add .
+  431  git commit -m "commit4"
+  432  git push -u origin develop
+  433  git checkout master
+  434  git branch
+  435  touch e.txt
+  436  git add .
+  437  git commit -m "commit5"
+  438  git log --oneline --graph --all
+  439  git log
+  440  git cat-file -p e11e8cd
+  441  git cat-file -p b93a755
+  442  git cat-file -p 0c3e09d
+  443  git archive --format=zip HEAD -o branchtest-1.zip
+  444  git log --oneline --graph --all
+  445  touch book.txt
+  446  code book.txt 
+  447  git add .
+  448  git status
+  449  git reset book.txt
+  450  git status
+  451  git commit -m "backup1"
+  452  git add .
+  453  git status
+  454  git commit -m "commit6"
+  455  git add .
+  456  git commit -m "commit7"
+  457  git log --oneline --graph --all
+  458  git push
+  459  git checkout 655b4fe
+  460  git log --oneline --graph --all
+  461  git checkout master
+  462  git log --oneline --graph --all
+  463  git chekout develop
+  464  git checkout develop
+  465  git log --oneline --graph --all
+  466  git checkout master
+  467  git log --oneline --graph --all
+  468  git add .
+  469  git status
+  470  git commit -m "commit8"
+  471  git log --oneline --graph --all
+  472  zipinfo branchtest-1.zip 
+  473  git checkout 45794bc
+  474  git add .
+  475  git commit -m "commitx"
+  476  git checkout develop
+  477  git log --oneline --graph --all
+  478  git checkout master
+  479  git log --oneline --graph --all
+  480  git checkout 45794bc book.txt
+  481  git log --oneline --graph --all
+  482  git status
+  483  git add .
+  484  git status
+  485  git commit -m "commit9"
+  486  git log --oneline --graph --all
+  487  git push
+  488  git log --oneline --graph --all
+  489  cd /c/gitwork/12
+  490  git remote add origin https://github.com/koha0726/remote12.git
+  491  git push -u origin master
+  492  git status
+  493  git branch
+  494  cd test1
+  495  code test1.txt 
+  496  git status
+  497  git add .
+  498  git commit -m "test"
+  499  git push
+  500  cd /c/gitwork/03
+  501  git remote add origin https://github.com/koha0726/remote03.git
+  502  git push -u origin master
+  503  history > newhistory.txt
